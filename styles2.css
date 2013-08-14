@@ -1,0 +1,24 @@
+div.outer {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+div.column:first-child {
+	margin-left: 0;
+}
+div.column {
+	width: 22%;
+	float: left;
+	margin-left: 4%;
+}
+
+div.inner {
+	top-left:auto;
+	padding: 1em;
+	background-color: #eee;
+}
+div.center {
+	text-align: center;
+}
+
+
